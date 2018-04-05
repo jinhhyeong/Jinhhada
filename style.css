@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+  #allofpage{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 260px 50px 1fr 120px;
+    height: auto;
+    text-align: justify;
+    font-family: 'Nanum Pen Script', serif;
+    font-size: 20.5pt;
+  }
+
+  .header{
+    display:grid;
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color: #a3a3c7;
+    padding-top: 25px
+  }
+  .leftneck{
+    display: grid;
+  grid-column-start:1;
+  grid-column-end:2;
+  background: #cfcfe2;
+  }
+  .neck{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:3;
+    background: #cfcfe2;
+    padding-top: 6px;
+    padding-left: 25px;
+  }
+  .rightneck{
+    display: grid;
+    grid-column-start:3;
+    grid-column-end:4;
+    background: #cfcfe2;
+  }
+  .leftside{
+    display:grid;
+    background-color: white;
+    grid-row-start: 3;
+    border-right : 3px double #cfcfe2;
+  }
+  .main{
+    display:grid;
+    background-color: white;
+    grid-row-start: 3;
+    padding: 40px;
+  }
+  .rightside{
+    display:grid;
+    background-color: white;
+    grid-row-start: 3;
+    border-left : 3px double #cfcfe2;
+  }
+  .footer{
+    display:grid;
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color: #cfcfe2;
+    padding-top: 10px;
+  }
+  #links{
+    display: inline;
+    margin: auto;
+  }
+  #navi{
+    display: inline-block;
+    text-decoration: none;
+  }
